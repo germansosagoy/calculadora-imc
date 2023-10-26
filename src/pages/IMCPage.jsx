@@ -59,12 +59,12 @@ const handleBack = () => {
           </div>
         <form className="bg-gray-100 p-5 rounded-lg my-4">
           <label className="block mb-2">
-            <strong>Altura </strong>(en metros):
+            <strong>Altura </strong>(en cm):
             <input type="text" value={height} onChange={(e) => setHeight(e.target.value)} placeholder="Solo números, sin decimales" className="w-full py-2 px-3 border border-gray-300 rounded-lg"
             />
           </label>
           <label className="block mb-2">
-            <strong>Peso </strong>(en kilogramos):
+            <strong>Peso </strong>(en kgs):
             <input type="text" value={weight} onChange={(e) => setWeight(e.target.value)} placeholder="Solo números, sin decimales" className="w-full py-2 px-3 border border-gray-300 rounded-lg"
             />
           </label>
